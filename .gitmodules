@@ -7,7 +7,7 @@
 [submodule "sonic-sairedis"]
 	path = src/sonic-sairedis
 	url = https://github.com/sambenko/sonic-sairedis
-	branch = feat/L2-vxlan-evpn
+	branch = feat/nat-support
 [submodule "sonic-swss"]
 	path = src/sonic-swss
 	url = https://github.com/sonic-net/sonic-swss
@@ -130,7 +130,8 @@
 	url = https://github.com/Marvell-switching/sonic-platform-marvell.git
 [submodule "platform/vpp"]
 	path = platform/vpp
-	url = https://github.com/sonic-net/sonic-platform-vpp.git
+	url = https://github.com/sambenko/sonic-platform-vpp.git
+	branch = feat/nat-support
 [submodule "platform/marvell-prestera/mrvl-prestera"]
 	path = platform/marvell-prestera/mrvl-prestera
 	url = https://github.com/Marvell-switching/mrvl-prestera.git
